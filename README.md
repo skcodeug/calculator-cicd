@@ -1,7 +1,6 @@
-## Introduction
-Calculator app for Bootcamp008 CI/CD Module
+[nodejs-image]: https://pluspng.com/img-png/nodejs-png-nodejs-icon-png-50-px-1600.png
 
-<p align="center">A calculator running on <a href="http://nodejs.org" target="blank">Node.js</a> for Bootcamp Cohort 008 at <a href="https://refactory.ug" target="blank">Refactory</a>, Sep2021.</p>
+<p align="center">A calculator running on <a href="http://nodejs.org" target="blank">Node.js</a> for the class of Bootcamp Cohort 008, <a href="https://refactory.ug" target="blank">Refactory</a> in Sep2021.</p>
 <p align="center">
 
 ## Installation
