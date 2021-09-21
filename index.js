@@ -32,9 +32,5 @@ server['get']('*', (req, res) => {
     );
 })
 
-// var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
-// console['log'](req['protocol'] + '://' + req['get']('host') + req['originalUrl']);
-console['log']('test');
-
 // LISTENER
 server.listen(port, () => console.log(`Listening on: ${host}:${port}`));
