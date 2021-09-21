@@ -25,11 +25,15 @@ server['get']('/', (req, res) => {
 
 // ERROR
 server['get']('*', (req, res) => {
-    res['send'](
+    console['log'](req['protocol'] + '://' + req['get']('host') + req['originalUrl']);
+    res['status'](404)['send'](
       "Unfortunately, we don't have that page but will cater for it in the future. <br>" +
         `<br> For now, please go to <a href=${host}:${port}> ${host}:${port} </a>`
     );
 })
+
+// var fullUrl = req.protocol + '://' + req.get('host') + req.originalUrl;
+// console['log'](req['protocol'] + '://' + req['get']('host') + req['originalUrl']);
 
 // LISTENER
 server.listen(port, () => console.log(`Listening on: ${host}:${port}`));

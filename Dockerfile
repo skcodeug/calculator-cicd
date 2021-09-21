@@ -1,5 +1,9 @@
 FROM node:14
 
+MAINTAINER steveK
+
+LABEL Running a NodeJs App in a Docker container
+
 # Calc Directory
 WORKDIR /usr/src/calc
 

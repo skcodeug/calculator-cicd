@@ -15,3 +15,8 @@ $ npm run start
 
 # development
 $ npm run dev
+```
+
+## License
+
+  Calculator Project is [GPL-3.0 licensed](LICENSE).
