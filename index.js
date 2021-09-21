@@ -32,5 +32,6 @@ server['get']('*', (req, res) => {
     );
 })
 
+console['log']('test');
 // LISTENER
 server.listen(port, () => console.log(`Listening on: ${host}:${port}`));
